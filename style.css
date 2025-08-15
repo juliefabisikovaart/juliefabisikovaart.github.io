@@ -37,7 +37,7 @@ h4 {
 
 /*.header-image {
     height: 100px; /* Adjust the height as needed */
-    margin-right: 4em;
+/*    margin-right: 4em;
     margin-left: 10em;
 }*/
 
@@ -146,6 +146,23 @@ nav ul li a {
     }
 }
 
+
+
+/*#about {
+    text-align: center;
+    display: flex;
+    align-items: stretch; /* Obrázek se vytáhne na celou výšku sekce */
+    /*gap: 20px;
+}
+
+#about img {
+    width: 200%;
+    height: auto;
+    max-width: 200px; /* můžeš upravit podle potřeby */
+    /*object-fit: cover; /* vyplní prostor a zachová poměr stran */
+/*}
+*/
+
 #technique h2 {
     clear: both;
     text-align: center;
@@ -226,6 +243,42 @@ footer {
 .form-group input[type="submit"]:hover {
     background-color: #555;
 }*/
+/*.modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+    margin: 5% auto;
+    display: block;
+    max-width: 90%;
+    max-height: 80%;
+}
+
+#imageCaption {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+*/
+
 .modal {
     display: none;
     position: fixed;
@@ -297,6 +350,4 @@ li {
 
 h3 {
     margin: 20px 0; /* Ensure no extra space around h3 */
-
 }
-
