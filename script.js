@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 12 17:43:20 2025
-
-@author: julie
-"""
-
 // script.js
 function switchLanguage(lang) {
     const csElements = document.querySelectorAll('.cs');
@@ -36,4 +29,5 @@ function showModal(imageSrc, captionText) {
 function closeModal() {
     var modal = document.getElementById('imageModal');
     modal.style.display = 'none';
+
 }
