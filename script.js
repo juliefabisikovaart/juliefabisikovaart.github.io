@@ -1,4 +1,5 @@
 // script.js
+// Přepínání jazyků
 function switchLanguage(lang) {
     const csElements = document.querySelectorAll('.cs');
     const enElements = document.querySelectorAll('.en');
@@ -14,19 +15,22 @@ function switchLanguage(lang) {
 
 // Nastavit výchozí jazyk při načtení stránky
 document.addEventListener('DOMContentLoaded', () => {
-    switchLanguage('cs'); // defaultně česky
+    switchLanguage('cs'); // výchozí jazyk: čeština
 });
 
+// Otevření modálního okna s obrázkem
 function showModal(imageSrc, captionText) {
-    var modal = document.getElementById('imageModal');
-    var modalImg = document.getElementById('largeImage');
-    var caption = document.getElementById('imageCaption');
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('largeImage');
+    const caption = document.getElementById('imageCaption');
+
     modal.style.display = 'block';
     modalImg.src = imageSrc;
     caption.textContent = captionText;
 }
 
+// Zavření modálního okna
 function closeModal() {
-    var modal = document.getElementById('imageModal');
+    const modal = document.getElementById('imageModal');
     modal.style.display = 'none';
 }
